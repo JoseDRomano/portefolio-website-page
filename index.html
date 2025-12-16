@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Diogo Romano - Machine Learning Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="profile-placeholder.png" alt="José Diogo Romano" class="profile-image" id="profileImage" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="placeholder-overlay">
+                        <p>Add your profile picture<br>(replace profile-placeholder.png)</p>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>José Diogo Romano</h1>
+                    <h2>Machine Learning Engineer</h2>
+                    <p class="tagline">Bridging AI innovation with business value through intelligent automation and data-driven solutions</p>
+                    <div class="contact-info">
+                        <a href="mailto:jdromano@outlook.pt" class="contact-link">jdromano@outlook.pt</a>
+                        <a href="https://linkedin.com/in/jd-romano" target="_blank" class="contact-link">LinkedIn</a>
+                        <a href="https://github.com/JoseDRomano" target="_blank" class="contact-link">GitHub</a>
+                        <span class="contact-link">(+351) 912 266 968</span>
+                        <span class="contact-link">Almada, Portugal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <p class="about-text">
+                    Machine Learning Engineer with a passion for transforming complex data into actionable business insights. 
+                    Specialized in developing production-grade AI solutions, from GenAI pipelines to RAG systems, with proven 
+                    experience in enterprise environments. Currently pursuing an MSc in Computer Science with a focus on AI, 
+                    while applying cutting-edge ML techniques to solve real-world business challenges.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="publications">
+            <div class="container">
+                <h2 class="section-title">Publications</h2>
+                <div class="publication-card">
+                    <h3>"Unveiling MicroRNA Biomarkers for Breast Cancer Sub-typing Using Discriminative Models"</h3>
+                    <p class="publication-meta">EPIA 2025 Conference | AI for Medicine Track</p>
+                    <p class="publication-doi"><a href="https://doi.org/10.1007/978-3-032-05176-9_6" target="_blank" rel="noopener">DOI: 10.1007/978-3-032-05176-9_6</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Tech Analyst Consultant</h3>
+                        <span class="company">Deloitte</span>
+                        <span class="period">Sep 2025 - Present</span>
+                    </div>
+                    <p class="location">Lisbon, Portugal</p>
+                    <ul class="experience-list">
+                        <li>Engineered a GenAI pipeline using Prompt Engineering to auto-generate BPMN XML and .NET code, reducing manual development time by 30% and accelerating workflow automation.</li>
+                        <li>Migrating critical RPA operations from UiPath to a scalable microservices architecture orchestrated by Camunda 8 (BPMN).</li>
+                        <li>Architected high-performance .NET job workers implementing Clean Architecture principles (3-tier, abstractions), ensuring production-grade reliability for critical operations.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Data & AI Trainee (Intern)</h3>
+                        <span class="company">Unipartner IT Services</span>
+                        <span class="period">Nov 2023 - Mar 2024</span>
+                    </div>
+                    <p class="location">Oeiras, Portugal</p>
+                    <ul class="experience-list">
+                        <li>Developed a Retrieval-Augmented Generation (RAG) system using Azure OpenAI and Cognitive Search to enable semantic document retrieval across unstructured corporate data.</li>
+                        <li>Engineered Python ETL pipelines to automate data ingestion, creating vector embeddings and integrating seamlessly with Azure Blob Storage.</li>
+                        <li>Optimized LLM outputs through prompt engineering and hyperparameter tuning, significantly minimizing hallucinations and ensuring domain-specific accuracy.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>MSc in Computer Science (Major in AI)</h3>
+                        <span class="period">Sep 2023 - Expected Jan 2026</span>
+                    </div>
+                    <p class="institution">NOVA School of Science and Technology</p>
+                    <p class="coursework">Relevant Coursework: Machine Learning, Deep Learning, Game Theory, Knowledge Representation, Big Data Analysis</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>BSc in Computer Science</h3>
+                        <span class="period">Sep 2020 - Jul 2023</span>
+                    </div>
+                    <p class="institution">NOVA School of Science and Technology</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                
+                <div class="project-card">
+                    <h3>Conversational Task Agent</h3>
+                    <ul class="project-list">
+                        <li>Developed a multimodal conversational agent integrating BERT for NLU and CLIP for image recognition in a recipe-guidance system.</li>
+                        <li>Fine-tuned a Large Language Model (LLM) to follow domain-specific instructions, improving context-awareness.</li>
+                        <li>Implemented image analysis pipelines to detect cooking progress from user-submitted photos.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <h3>Customer Segmentation Data Science Project</h3>
+                    <ul class="project-list">
+                        <li>Executed customer segmentation on 9000+ records using Fuzzy C-Means (FCM) clustering and compared it to other clustering techniques to identify distinct user profiles.</li>
+                        <li>Applied PCA and SVD for dimensionality reduction, improving data visualization and clustering efficiency.</li>
+                        <li>Validated results through rigorous statistical analysis, including regression modeling and hypothesis testing in Python.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Machine Learning & AI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">XGBoost</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">RAG</span>
+                            <span class="skill-tag">LLMs (OpenAI API)</span>
+                            <span class="skill-tag">PySpark</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">C# (.NET)</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Cloud & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">Azure Cloud Ecosystem</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 José Diogo Romano. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
